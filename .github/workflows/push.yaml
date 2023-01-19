@@ -3,7 +3,7 @@ name: Push
 on:
   push:
     branches:
-      - main
+      - iaccode
 
 env:
   TF_LOG: INFO
