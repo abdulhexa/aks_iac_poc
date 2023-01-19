@@ -1,10 +1,12 @@
-
-
 variable "prefix" {
-  description = "A prefix used for all resources in this example"
+  type        = string
+  description = "The prefix which should be used for all resources in this example"
+  default     = "devdemorg"
 }
 
 variable "location" {
-  description = "The Azure Region in which all resources in this example should be provisioned"
-  default = "demo3434"
+  type        = string
+  description = "The Azure Region in which all resources in this example should be created."
+  default     = "eastus"
 }
+
